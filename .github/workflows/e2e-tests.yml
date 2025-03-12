@@ -6,13 +6,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-            node-version: 16.14.0
-            cache: "npm"
       - name: Cypress runs-on
         uses: cypress-io/github-action@v6
-        with: 
-          start: npm start
+        # with: 
+        #   start: npm start
 
 
 
