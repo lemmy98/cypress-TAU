@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
       - name: Cypress runs-on
         uses: cypress-io/github-action@v6
         # with: 
@@ -21,6 +22,14 @@ jobs:
       #  with:
       #    name: cypress-videos
       #    path: cypress/videos
+
+
+
+      - name: Upload Test Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: newman-test-results
+          path: newman-report.json
 
 
 
