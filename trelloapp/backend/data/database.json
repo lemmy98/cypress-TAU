@@ -1,0 +1,40 @@
+{
+  "boards": [
+    {
+      "name": "Hello world",
+      "user": 0,
+      "id": 1,
+      "starred": true,
+      "created": "2025-03-11"
+    }
+  ],
+  "cards": [
+    {
+      "order": 0,
+      "boardId": 1,
+      "listId": 1,
+      "name": "milk",
+      "created": "2025-03-11",
+      "deadline": "2025-03-14",
+      "description": "",
+      "completed": false,
+      "id": 1
+    }
+  ],
+  "lists": [
+    {
+      "boardId": 1,
+      "name": "Groceries",
+      "order": 0,
+      "created": "2025-03-11",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "filip@filipphric.sk",
+      "password": "Asdf.1234#"
+    }
+  ]
+}
