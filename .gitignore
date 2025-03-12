@@ -1,0 +1,29 @@
+# 🔹 Node modules (dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+
+# 🔹 Cypress-generated files
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/
+
+# 🔹 Cypress cache & binary files
+.cypress_cache/
+cypress/config/
+
+# 🔹 Environment & Secrets
+# .env
+# .env.local
+# cypress.env.json
+
+# 🔹 Logs & Debugging
+*.log
+debug.log
+npm-debug.log
+yarn-error.log
+
+# 🔹 OS/System files (Mac & Windows)
+.DS_Store
+Thumbs.db
