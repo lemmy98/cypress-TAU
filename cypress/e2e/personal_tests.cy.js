@@ -249,7 +249,7 @@ describe("Lemmy's Tests", () => {
     cy.visit('/')
   });
 
-  it('Using Custom Commands', () => {
+  it.only('Using Custom Commands', () => {
 
       cy.visit('/board/1')
 
@@ -267,7 +267,7 @@ describe("Lemmy's Tests", () => {
 })
 
 describe('User Authentication', () => {
-  it.only('should log in successfully', () => {
+  it('should log in successfully', () => {
     cy.login('test@example.com', 'test123');
   });
 
