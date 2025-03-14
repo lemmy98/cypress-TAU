@@ -7,7 +7,12 @@ module.exports = defineConfig({
       // implement node event listeners here
 
       on('task', {
-        seedDatabase
+        seedDatabase,
+
+        log(message) {
+          console.log(message);
+          return null;
+        }
       });
 
       const version = config.env.version || 'local'

@@ -1,11 +1,25 @@
 {
   "boards": [
     {
-      "name": "Hello world",
+      "name": "My To Do Board",
       "user": 0,
-      "id": 1,
-      "starred": true,
-      "created": "2025-03-11"
+      "starred": false,
+      "created": "2025-03-13",
+      "id": 1
+    },
+    {
+      "name": "Another To Do Board",
+      "user": 0,
+      "starred": false,
+      "created": "2025-03-13",
+      "id": 2
+    },
+    {
+      "name": "Seeding DB",
+      "user": 0,
+      "starred": false,
+      "created": "2025-03-14",
+      "id": 3
     }
   ],
   "cards": [
@@ -13,28 +27,58 @@
       "order": 0,
       "boardId": 1,
       "listId": 1,
-      "name": "milk",
-      "created": "2025-03-11",
-      "deadline": "2025-03-14",
+      "name": "Shaft",
+      "created": "2025-03-13",
+      "deadline": "2025-03-16",
       "description": "",
       "completed": false,
       "id": 1
+    },
+    {
+      "order": 1,
+      "boardId": 1,
+      "listId": 1,
+      "name": "Horn",
+      "created": "2025-03-13",
+      "deadline": "2025-03-16",
+      "description": "",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "order": 0,
+      "boardId": 1,
+      "listId": 2,
+      "name": "Plumbing Work",
+      "created": "2025-03-13",
+      "deadline": "2025-03-16",
+      "description": "",
+      "completed": false,
+      "id": 3
     }
   ],
   "lists": [
     {
       "boardId": 1,
-      "name": "Groceries",
+      "name": "Car Repair List",
       "order": 0,
-      "created": "2025-03-11",
+      "created": "2025-03-13",
       "id": 1
+    },
+    {
+      "boardId": 1,
+      "name": "House Renovations List",
+      "order": 1,
+      "created": "2025-03-13",
+      "id": 2
     }
   ],
   "users": [
     {
       "id": 1,
-      "email": "filip@filipphric.sk",
-      "password": "Asdf.1234#"
+      "name": "Cypress Test",
+      "email": "cypress@test.com",
+      "password": "test123@"
     }
   ]
 }

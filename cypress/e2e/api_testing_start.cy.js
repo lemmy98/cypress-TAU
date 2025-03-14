@@ -1,8 +1,11 @@
 it('sends a request over API', () => {
 
     cy.request('POST', '/api/boards', {
-        name: 'created by cy.request()'
-    })
+        name: 'Direct HTTP reequest'
+    }).then((response) => {
+        expect(response.status).to.eq(201); // Created
+        expect(response.body.name).to.eq('Direct HTTP reequest');
+    });
 
     cy.visit('/')
     
